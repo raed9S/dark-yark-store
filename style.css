@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10;
+    padding: 10px 50px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.header-links a {
+    color: aliceblue;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    color: brown;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+
+
+
+
+.btn {
+    background-color: rgba(26, 60, 184, 1);
+    padding: 5px 15px;
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.btn:hover {
+    background-color: rgb(23, 127, 156);
+
+}
+
+.landing-page {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    color: aliceblue;
+    border-radius: 0 0 50px 50px;
+}
+
+.ianding-page-left-section {
+    width: 400px;
+}
+
+
+.landing-page-SEARCH input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.landing-page-SEARCH button {
+    position: absolute;
+    left: 200px;
+    height: 30px;
+}
+
+.ianding-page-image-container img {
+    border-radius: 20px;
+    width: 250px;
+}
+
+.Trending-container {
+    padding: 25px 50px;
+}
+
+.Trending-container span {
+    color: rgb(123, 13, 119);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.Trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Trending-header h1 {
+    margin-top: 0px;
+}
+
+.cards {
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20PX;
+}
+
+.cards .thumb {
+    border-radius: 20px 20px 0 0;
+}
+
+.trending-cards {
+    display: flex;
+    gap: 25px;
+}
+
+.cards-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+
+}
+
+.cards-info img {
+    width: 50px;
+}
