@@ -33,7 +33,7 @@ body {
 
 
 .btn {
-    background-color: rgb(89, 48, 201);
+    background-color: rgb(65, 66, 66);
     padding: 5px 15px;
     color: rgb(231, 233, 234);;
     border: none;
@@ -42,12 +42,12 @@ body {
 }
 
 .btn:hover {
-    background-color: rgb(23, 127, 156);
+    background-color: rgb(74, 142, 60);
 
 }
 
 .landing-page {
-    background-color: #000000;
+  background-color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
