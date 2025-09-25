@@ -116,7 +116,7 @@ body {
 }
 
 .trending-cards {
-    display: flex;
+    display:flex;
     gap: 25px;
 
 }
@@ -133,3 +133,7 @@ body {
     width: 50px;
 
 }
+
+
+
+
